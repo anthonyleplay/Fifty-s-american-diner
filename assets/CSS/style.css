@@ -111,8 +111,17 @@ background-image: url('../img/parralax.jpg');
   background-size: cover;
 }
 /* ========================== zone contact ards + tel, etc.. */
+#contact{
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  background-color: rgba(199, 44, 65, 0.212);
+  text-align: center
+}
 #contact-block-formulaire{
   display: inline-block;
+  width: 50%;
   text-align: left;
   margin: 0 2rem;
   padding-top: 50px;
@@ -125,7 +134,7 @@ background-image: url('../img/parralax.jpg');
 .contact-block-formulaire-type input,textarea{
   padding: 0.3rem;
   background-color: #fbfbff;
-  border: 0.5rem solid #C72C41;
+  border: 0.2rem solid #C72C41;
   font-family: 'Roboto', sans-serif;
 }
 
