@@ -55,7 +55,9 @@ header{
   line-height: 50px;
   text-decoration: none;
   text-align: center;
-  
+}
+#main-nav a:hover{
+  background-color: #2e3138 ;
 }
 
 div#nav-logo {
@@ -98,7 +100,14 @@ font-weight: 300;
 }
 
 /* ========================== zone des plats et menu */
-
+.espace-parralax{
+background-image: url('../image/parralax.jpg');
+  height: 40rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* ========================== zone contact ards + tel, etc.. */
 #contact-block-formulaire{
   display: inline-block;
