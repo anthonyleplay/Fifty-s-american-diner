@@ -101,7 +101,7 @@ font-weight: 300;
 
 /* ========================== zone des plats et menu */
 .espace-parralax{
-background-image: url('../image/parralax.jpg');
+background-image: url('../img/parralax.jpg');
   height: 40rem;
   background-attachment: fixed;
   background-position: center;
