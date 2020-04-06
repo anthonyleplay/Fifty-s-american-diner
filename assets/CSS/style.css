@@ -51,6 +51,6 @@ header{
 #main-nav a:hover{
   color: #861313;
   border-bottom: 0.3rem solid #01baef;
-  background-color:red;
+  background-color:rgb(17, 0, 255);
   text-decoration: none;
 }
