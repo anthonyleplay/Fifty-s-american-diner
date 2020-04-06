@@ -7,6 +7,7 @@
 </head>
 
 <body>
+    <!-- ====================== en tete nav barre + titre avec photo -->
     <header>
 		<!-- ================== Nav barre ================== -->
 		<div id="box-nav">
@@ -17,9 +18,34 @@
 					<li><a href="#pin-skills">Contact</a>
 				</ul>
 			</div>
-		</div>
+        </div>
+        <!-- ================= zone presentation du resto -->
     </header>
-    
+    <!-- ===================== zone des plats et menu -->
 
+    <!-- ===================== zone contact ards + tel, etc.. -->
+    <div id="contact-block-formulaire">
+        <form>
+            <div class="contact-block-formulaire-type">
+                <label for="name">Votre Nom : *</label><br>
+                <input type="text" id="name" size="40" name="name" placeholder="EX: Jean DUPOND" required>
+            </div>
+            <div class="contact-block-formulaire-type">
+                <label for="mail">Votre Email : *</label><br>
+                <input type="email" id="mail" size="40" name="mail" placeholder="EX: abc@gmail.com" required>
+            </div>
+            <div class="contact-block-formulaire-type">
+                <label for="object">Sujet : *</label><br>
+                <input type="text" id="object" size="40" name="object" required>
+            </div>
+            <div class="contact-block-formulaire-type">
+                <label for="message">Votre Message : *</label><br>
+                <textarea type="text" cols="60" rows="10" id="message" name="message" placeholder="Message" required></textarea>
+            </div>
+            <input type="submit" value="Envoyer le message">
+        </form>
+    </div>
+
+    <!-- =====================pied de page les mention legales -->
 </body>
 </html>
