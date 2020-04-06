@@ -7,7 +7,6 @@ body, html {
   padding: 0;
   height: 100%;
   scroll-behavior: smooth;
-  height: 200vh;
 }
  /* ========================== en tete nav barre + titre avec photo  */
 header{
@@ -22,9 +21,8 @@ header{
   width: 100%;
   padding: 0;
   background-color: #343E59;
-  display: inline-block;
+  display: block;
   overflow: hidden;
-  
   z-index: 10;
   text-align: center;
 }
@@ -72,13 +70,14 @@ div#pres-resto {
 div#pres-resto #pres-resto-img {
   width: 50%;
   height:auto;
-background-image: url(../img/pres.jpg);
+  background-image: url(../img/pres.jpg);
+  background-position: center;
 }
 
 div#pres-resto div#pres-resto-text {
   width: 50%;
-  height:200px;
-  background-color: black;
+  height:500px;
+ color: black;
 }
 
 /* ========================== zone des plats et menu */
@@ -104,3 +103,9 @@ div#pres-resto div#pres-resto-text {
 }
 
 /* ========================== pied de page les mention legales */
+
+footer {
+  width: 100%;
+  height: 10vh;
+  background-color: #343E59 ;
+}
