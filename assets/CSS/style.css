@@ -69,9 +69,11 @@ div#nav-logo figure {
   background-image: url(../img/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 50px;
+  background-position: center;
+  width: 500px;
   height: 50px;
-  margin:0
+  margin: auto;
+  
 
 }
 /* ========================== titre et presentation */
