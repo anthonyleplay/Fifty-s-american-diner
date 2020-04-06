@@ -118,13 +118,12 @@ background-image: url('../img/parralax.jpg');
 .contact-block-formulaire-type{
   padding: 0.5rem 0;
   float: left;
-  width: 90%;
+  width: 100%;
 }
 .contact-block-formulaire-type input,textarea{
-  border-radius: 1rem;
   padding: 0.3rem;
   background-color: #fbfbff;
-  border: 0.1rem solid #040f16;
+  border: 0.5rem solid #C72C41;
   font-family: 'Roboto', sans-serif;
 }
 
