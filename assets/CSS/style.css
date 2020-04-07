@@ -179,6 +179,7 @@ justify-content: center;
 align-items: center;
 font-size: 3em;
 color: #C72C41;
+background-color: #1f2229;
 }
 
 div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes p:hover {
@@ -190,7 +191,7 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
   bottom: 0;
   width:100%;
   height: 300px;
-  background-color: #1f2229;
+  
   transition: 0.5s all;
   filter: opacity(0.8);
 }
@@ -227,9 +228,14 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
   font-size: 1.4rem;
   margin: 0;
 }
-.menu-box-column p{
+.menu-box-column h5{
   color: #C72C41;
   margin: 0;
+  font-size: 1rem;
+}
+.menu-box-column p{
+  color: #1f2229;
+  margin-top: 0.5rem;
 }
 .menu-box-column span, .menu-box-column-dessert span{
   color: #C72C41;
@@ -237,7 +243,7 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
 }
 .menu-box-column div, .menu-box-column-dessert div{
   color: #1f2229;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   
 }
 
@@ -268,6 +274,7 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
   vertical-align: middle;
   width: 50%;
 }
+
 .contact-block-formulaire-type{
   padding: 0.5rem 0;
   float: left;
@@ -277,7 +284,7 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
 .contact-block-formulaire-type input,textarea{
   padding: 0.3rem;
   background-color: #ffffff;
-  resize: none;
+  resize: auto;
   border: 0;
 }
 #contact-submit{
@@ -352,3 +359,58 @@ footer div#copyright {
   color: white;
   text-align:center;
 }
+
+
+
+
+
+
+
+/* ========================== Responsive */
+@media screen and (max-width: 1100px) {
+  .center {
+    display: block;
+    width: 100%;
+  }
+  div#pres-resto #pres-resto-text h1 {
+    margin-left: 3.5em;
+  }
+  section#pin-dishes {
+    width: 95%;
+  }
+  div.container-dishes div.dishes-bloc {
+    width: calc(50% - 20px);
+    margin: 10px;
+  }
+
+} 
+@media screen and (max-width:768px) {
+  .center {
+    display: block;
+    width: 100%;
+  }
+  div.container-dishes div.dishes-bloc {
+    width: calc(100% - 20px);
+    margin: 10px;
+  }
+  div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes {
+    filter: opacity(1);
+    background-color: rgba(0, 0, 0, 0.356);
+  }
+  #menu-box {
+    width: 95%;
+  }
+  .menu-box-column {
+    width: 100%;
+  }
+  #contact {
+    width: 95%;
+  }
+  #contact-img {
+    width: 100%;
+    height: 15rem;
+  }
+  #contact-block-formulaire {
+    width: 100%;
+  }
+} 
