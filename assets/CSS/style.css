@@ -164,7 +164,28 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
   transition: 0.5s all;
   filter: opacity(1);
   }
-
+/* ========================== zone menu du resto  */
+#dishes-box{
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+.dishes-box-middle{
+  color: #1f2229;
+}
+.dishes-box-middle h3{
+  color: #1f2229;
+  font-size: 2rem;
+}
+.dishes-box-middle span{
+  color: #C72C41;
+  font-size: 1.5rem;
+  
+}
+.dishes-box-middle div{
+  color: #1f2229;
+  margin-bottom: 1rem;
+}
 /* ========================== zone contact ards + tel, etc.. */
 #contact{
   margin: 0 auto;
