@@ -165,68 +165,6 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
   filter: opacity(1);
   }
 
-/* h1 {
-  font-weight: 300;
-  padding: 1%;
-}
-
-p {
-  padding: 1%;
-}
-
-.row {
-  display: flex;
-  font-family: 'Roboto', sans-serif;
-}
-
-.column {
-  position: relative;
-  flex: 50%;
-  padding: 1%;
-}
-
-.column:hover .textsurvol {
-  opacity: 1;
-}
-
-img {
-  height: 15em;
-  width: 17em;
-  margin-left: 30%;
-  margin-right: 30%;
-}
-
-.blocburger {
-  width: 50%;
-  height: auto;
-  margin: 0 auto;
-}
-
-.image {
-  z-index: 2;
-}
-
-.textsurvol {
-  position: absolute;
-  bottom: 0;
-  height: 50%;
-  width: 50%;
-  opacity: 0;
-  transition: .5s all;
-  background-color: gray;
-}
-
-.textburger {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-} */
 /* ========================== zone contact ards + tel, etc.. */
 #contact{
   margin: 0 auto;
