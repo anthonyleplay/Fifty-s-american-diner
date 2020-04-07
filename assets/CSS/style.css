@@ -245,43 +245,46 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
 #contact{
   margin: 0 auto;
   width: 80%;
- padding: 100px 0px 0px 0px;
+ padding: 100px 0px 100px 0px;
   background-color: #ffffff;
   text-align:left;
 }
-
+#container-contact{
+  width: calc(100% - 20px);
+  margin: 10px;
+  color: white;
+}
 #contact-img{
   background-image: url(../img/contact-left.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: inline-block;
-  width: 40%;
   height: 30rem;
+  width: 50%;
 }
 #contact-block-formulaire{
-  display: inline-block;
-  width: 50%;
+  background-color: #C72C41;
   text-align: left;
-  margin: 0 2rem;
-  vertical-align: top;
+  vertical-align: middle;
+  width: 50%;
 }
 .contact-block-formulaire-type{
   padding: 0.5rem 0;
   float: left;
   width: 100%;
+  margin-left: 1rem;
 }
 .contact-block-formulaire-type input,textarea{
   padding: 0.3rem;
   background-color: #ffffff;
-  border: 0.2rem solid #1f2229;
   resize: none;
+  border: 0;
 }
 #contact-submit{
   padding: 0.2rem;
   background-color: #1f2229;
   color: white;
-  margin-top: 30px;
+  margin-left: 1rem;
   padding: 10px;
   border: 0;
   font-family: 'Roboto', sans-serif;
