@@ -284,7 +284,6 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
 .contact-block-formulaire-type input,textarea{
   padding: 0.3rem;
   background-color: #ffffff;
-  resize: auto;
   border: 0;
   width: 90%;
 }
