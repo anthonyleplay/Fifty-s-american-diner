@@ -82,7 +82,7 @@ div#nav-logo figure {
   background-repeat: no-repeat;
   background-position: center;
   width: 500px;
-  height: 50px;
+  height: 40px;
   margin: auto;
 }
 /* ========================== titre et presentation */
@@ -286,24 +286,33 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
   background-color: #ffffff;
   resize: auto;
   border: 0;
+  width: 90%;
 }
+
+.contact-block-formulaire-type textarea{
+  height: 10rem;
+}
+
 #contact-submit{
   padding: 0.2rem;
-  background-color: #1f2229;
-  color: white;
+  background-color: white;
+  color: #1f2229;
   margin-left: 1rem;
   padding: 10px;
   border: 0;
   font-family: 'Roboto', sans-serif;
   transition: all 0.5s;
+  margin-top: 1.5rem;
 }
+
 #contact-submit:hover{
  color: white;
- background-color: #C72C41;
+ background-color: #1f2229;
   border: 0;
   transition: all 0.5s;
   cursor: pointer;
 }
+
 /* ========================== pied de page les mention legales */
 
 footer {
