@@ -130,7 +130,7 @@ div.container-dishes {
  margin: 0 auto;
 }
 div.container-dishes div.dishes-bloc {
-  width: calc(50% - 20px);
+  width: calc(33.3% - 20px);
   margin:10px;
   
 }
@@ -139,19 +139,38 @@ width:100%;
 height: auto; 
 position: relative;
 }
-div.container-dishes div.dishes-bloc div.dishes-img img {
+div.container-dishes div.dishes-bloc div.dishes-img figure {
 width: 100%;
-height: 500px;
+height: 300px;
 background-size:cover ;
 background-position: center;
 background-repeat: no-repeat;
+margin: 0;
 }
+div.container-dishes div.dishes-bloc:nth-of-type(1) div.dishes-img figure {
+  background-image: url(../img/indianaburger.jpg);
+  }
+div.container-dishes div.dishes-bloc:nth-of-type(2) div.dishes-img figure {
+    background-image: url(../img/dongorske.jpg);
+    }
+div.container-dishes div.dishes-bloc:nth-of-type(3) div.dishes-img figure {
+      background-image: url(../img/saladecobb.jpg);
+      }
+div.container-dishes div.dishes-bloc:nth-of-type(4) div.dishes-img figure {
+        background-image: url(../img/salmonsalad.png);
+        }
+div.container-dishes div.dishes-bloc:nth-of-type(5) div.dishes-img figure {
+          background-image: url(../img/milkshake.jpg);
+          }
+div.container-dishes div.dishes-bloc:nth-of-type(6) div.dishes-img figure {
+            background-image: url(../img/cafegourmand.jpg);
+            }
 div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes {
 position: absolute;
 bottom: 0;
 top: 0;
 width:100%;
-height: 500px;
+height: 300px;
 transition: 0.5s all;
 filter: opacity(0);
 justify-content: center;
@@ -168,7 +187,7 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
   position: absolute;
   bottom: 0;
   width:100%;
-  height: 500px;
+  height: 300px;
   background-color: #1f2229;
   transition: 0.5s all;
   filter: opacity(0.8);
