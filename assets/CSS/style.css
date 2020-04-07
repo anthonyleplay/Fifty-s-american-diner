@@ -8,6 +8,16 @@ body, html {
   width: 100%;
   scroll-behavior: smooth;
 }
+.title {
+  width: calc(100% - 20px);
+  margin:10px;
+}
+.title h2 {
+ color:white ; 
+ padding: 10px;
+ font-size: 2rem  ;
+ background-color: #1f2229;
+}
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -36,8 +46,6 @@ header{
   padding: 0px;
   text-align: center;
   display: inline-block;
- 
-  
 }
 #main-nav ul{
   height: 50px;
@@ -75,8 +83,6 @@ div#nav-logo figure {
   width: 500px;
   height: 50px;
   margin: auto;
-  
-
 }
 /* ========================== titre et presentation */
 
@@ -88,9 +94,9 @@ div#pres-resto {
 }
 div#pres-resto #pres-resto-text {
   width: 100%;
-  height:400px;
+  height:500px;
   background-image: url(../img/burger.jpg);
-  background-position: center;
+  background-position: center ;
   background-repeat:no-repeat;
   background-size: cover;
   justify-content: flex-start;
@@ -114,18 +120,14 @@ line-height:30px;
   background-size: cover;
 }
 section#pin-dishes {
-  width: 100%;
+  width:80%;
   height:auto ;
-  padding: 100px 0px 100px 0px;
+  margin: 0 auto;
+  padding: 100px 0px 0px 0px;
 }
-section#pin-dishes div#title-dishes {
 
-}
-section#pin-dishes div#title-dishes h2 {
-
-}
 div.container-dishes {
- width: 80%;
+ width: 100%;
  height: auto;
  margin: 0 auto;
 }
@@ -194,41 +196,46 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
 }
 
 /* ========================== zone menu du resto  */
-#dishes-box{
+#menu-box{
   text-align: left;
   margin: 0 auto;
   width: 80%;
+  padding: 100px 0px 0px 0px;
 }
-.dishes-box-column{
+#title-menu{
+  width: calc(100% - 20px);
+  margin: 10px;
+}
+.menu-box-column{
   color: #1f2229;
   width: calc(50% - 30px);
   margin: 10px;
 }
-.dishes-box-column-dessert{
+.menu-box-column-dessert{
   color: #1f2229;
   width: calc(100% - 20px);
   margin: 10px;
 }
-.dishes-box-column h3, .dishes-box-column-dessert h3{
+.menu-box-column h3, .menu-box-column-dessert h3{
   color: white;
   background-color: #C72C41;
   padding: 10px;
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
-.dishes-box-column h4{
+.menu-box-column h4{
   color: #1f2229;
   font-size: 1.4rem;
   margin: 0;
 }
-.dishes-box-column p{
+.menu-box-column p{
   color: #C72C41;
   margin: 0;
 }
-.dishes-box-column span, .dishes-box-column-dessert span{
+.menu-box-column span, .menu-box-column-dessert span{
   color: #C72C41;
   font-size: 1.5rem;
 }
-.dishes-box-column div, .dishes-box-column-dessert div{
+.menu-box-column div, .menu-box-column-dessert div{
   color: #1f2229;
   margin-bottom: 1rem;
   
@@ -238,14 +245,11 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
 #contact{
   margin: 0 auto;
   width: 80%;
- padding: 100px 0px 100px 0px;
+ padding: 100px 0px 0px 0px;
   background-color: #ffffff;
   text-align:left;
 }
-#contact h2 {
- font-weight: 300;
- font-size:30px;
-}
+
 #contact-img{
   background-image: url(../img/contact-left.jpg);
   background-size: cover;
@@ -334,9 +338,6 @@ footer div#info #info-co ul li i{
 color:#C72C41;  
 padding-right: 25px;
 }
-
-
-
 footer div#maps {
   width: 50%;
   height: 400px;
