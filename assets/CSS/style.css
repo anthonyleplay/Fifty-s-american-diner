@@ -195,7 +195,7 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
 
 /* ========================== zone menu du resto  */
 #dishes-box{
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
   width: 80%;
 }
@@ -212,7 +212,9 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
   
 }
 .dishes-box-column h3, .dishes-box-column-dessert h3{
-  color: #1f2229;
+  color: white;
+  background-color: #C72C41;
+  padding: 10px;
   font-size: 2rem;
 }
 .dishes-box-column h4{
@@ -231,6 +233,7 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
 .dishes-box-column div, .dishes-box-column-dessert div{
   color: #1f2229;
   margin-bottom: 1rem;
+  
 }
 /* ========================== zone contact ards + tel, etc.. */
 #contact{
