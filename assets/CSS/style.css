@@ -104,11 +104,7 @@ line-height:30px;
 
 /* ========================== zone des plats et menu */
 .espace-parralax{
-<<<<<<< HEAD
-  background-image: url('../img/parralax.jpg');
-=======
-background-image: url(../img/parralax.jpg);
->>>>>>> fa9f660adf2bc7dd7b28229749f8ba5ffb7134b6
+  background-image: url(../img/parralax.jpg);
   height: 30rem;
   background-attachment: fixed;
   background-position: center;
