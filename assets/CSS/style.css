@@ -449,6 +449,29 @@ footer div#copyright {
   }
 } 
 @media screen and (max-width:425px) {
+  
+  div#nav-logo  {
+    width: 100%;
+    transition: all 0.5s;
+    }
+    div#nav-logo figure {
+      margin: 10px;
+    }
+    #main-nav {
+    width: 100%;
+    transition: all 0.5s;
+    display: none;
+  }
+  #main-nav ul {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+  #main-nav li {
+    width: 100%;
+   
+  }
+  
   div#pres-resto #pres-resto-text h1 {
     margin: 0;
     text-align: center;
@@ -482,4 +505,9 @@ footer div#copyright {
     width: 95%;
   }
 
+  .menuactive {
+    transition: all 0.5s;
+    display:block!important;
+  }
+  
 }
