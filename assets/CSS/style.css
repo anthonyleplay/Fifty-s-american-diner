@@ -180,19 +180,28 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
   margin: 0 auto;
   width: 80%;
 }
-.dishes-box-middle{
+.dishes-box-column{
   color: #1f2229;
+  width: calc(50% - 30px);
+  margin: 10px;
+  
 }
-.dishes-box-middle h3{
+.dishes-box-column-dessert{
+  color: #1f2229;
+  width: calc(100% - 20px);
+  margin: 10px;
+  
+}
+.dishes-box-column h3, .dishes-box-column-dessert h3{
   color: #1f2229;
   font-size: 2rem;
 }
-.dishes-box-middle span{
+.dishes-box-column span, .dishes-box-column-dessert span{
   color: #C72C41;
   font-size: 1.5rem;
   
 }
-.dishes-box-middle div{
+.dishes-box-column div, .dishes-box-column-dessert div{
   color: #1f2229;
   margin-bottom: 1rem;
 }
