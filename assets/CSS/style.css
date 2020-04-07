@@ -128,8 +128,13 @@ p {
 }
 
 .column {
+  position: relative;
   flex: 50%;
   padding: 1%;
+}
+
+.column:hover .textsurvol {
+  opacity: 1;
 }
 
 img {
@@ -139,6 +144,37 @@ img {
   margin-right: 30%;
 }
 
+.blocburger {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.image {
+  z-index: 2;
+}
+
+.textsurvol {
+  position: absolute;
+  bottom: 0;
+  height: 50%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s all;
+  background-color: gray;
+}
+
+.textburger {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 /* ========================== zone contact ards + tel, etc.. */
 #contact{
   margin: 0 auto;
