@@ -36,6 +36,7 @@ header{
   padding: 0px;
   text-align: center;
   display: inline-block;
+  
 }
 #main-nav ul{
   height: 50px;
@@ -142,9 +143,13 @@ img {
 #contact{
   margin: 0 auto;
   width: 80%;
-  padding-bottom: 2rem;
+ padding: 100px 0px 100px 0px;
   background-color: #ffffff;
-  text-align: center
+  text-align:left;
+  
+}
+#contact h2 {
+ 
 }
 #contact-img{
   background-image: url(../img/contact-left.jpg);
@@ -160,7 +165,8 @@ img {
   width: 50%;
   text-align: left;
   margin: 0 2rem;
-  padding-top: 2rem;
+  vertical-align: top;
+  
 }
 .contact-block-formulaire-type{
   padding: 0.5rem 0;
@@ -171,17 +177,25 @@ img {
   padding: 0.3rem;
   background-color: #ffffff;
   border: 0.2rem solid #1f2229;
-  font-family: 'Roboto', sans-serif;
+  resize: none;
+
 }
 #contact-submit{
   padding: 0.2rem;
-  background-color: #ffffff;
-  border: 0.2rem solid #1f2229;
+  background-color: #1f2229;
+  color: white;
+  margin-top: 30px;
+    padding: 10px;
+  border: 0;
   font-family: 'Roboto', sans-serif;
+  transition: all 0.5s;
 }
 #contact-submit:hover{
-  background-color: #ddddee;
-  border: 0.2rem solid #000000;
+ color: white;
+ background-color: #C72C41;
+  border: 0;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 /* ========================== pied de page les mention legales */
 
