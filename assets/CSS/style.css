@@ -215,10 +215,18 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
   color: #1f2229;
   font-size: 2rem;
 }
+.dishes-box-column h4{
+  color: #1f2229;
+  font-size: 1.4rem;
+  margin: 0;
+}
+.dishes-box-column p{
+  color: #C72C41;
+  margin: 0;
+}
 .dishes-box-column span, .dishes-box-column-dessert span{
   color: #C72C41;
   font-size: 1.5rem;
-  
 }
 .dishes-box-column div, .dishes-box-column-dessert div{
   color: #1f2229;
