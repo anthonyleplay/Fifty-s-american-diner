@@ -227,9 +227,14 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
   font-size: 1.4rem;
   margin: 0;
 }
-.menu-box-column p{
+.menu-box-column h5{
   color: #C72C41;
   margin: 0;
+  font-size: 1rem;
+}
+.menu-box-column p{
+  color: #1f2229;
+  margin-top: 0.5rem;
 }
 .menu-box-column span, .menu-box-column-dessert span{
   color: #C72C41;
@@ -237,7 +242,7 @@ div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
 }
 .menu-box-column div, .menu-box-column-dessert div{
   color: #1f2229;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   
 }
 
