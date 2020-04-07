@@ -25,7 +25,7 @@ header{
   width: 100%;
   padding: 0;
   background-color: #1f2229;
- 
+  position: fixed;
   overflow: hidden;
   z-index: 10;
   text-align: center;
@@ -36,6 +36,7 @@ header{
   padding: 0px;
   text-align: center;
   display: inline-block;
+ 
   
 }
 #main-nav ul{
@@ -112,8 +113,59 @@ line-height:30px;
   background-repeat: no-repeat;
   background-size: cover;
 }
+section#pin-dishes {
+  width: 100%;
+  height:auto ;
+  padding: 100px 0px 100px 0px;
+}
+section#pin-dishes div#title-dishes {
 
-h1 {
+}
+section#pin-dishes div#title-dishes h2 {
+
+}
+div.container-dishes {
+ width: 80%;
+ height: auto;
+ margin: 0 auto;
+}
+div.container-dishes div.dishes-bloc {
+  width: calc(50% - 20px);
+  margin:10px;
+  
+}
+div.container-dishes div.dishes-bloc div.dishes-img {
+width:100%;
+height: auto; 
+position: relative;
+}
+div.container-dishes div.dishes-bloc div.dishes-img img {
+width: 100%;
+height: 500px;
+background-size:cover ;
+background-position: center;
+background-repeat: no-repeat;
+}
+div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes {
+position: absolute;
+bottom: 0;
+top: 0;
+width:100%;
+height: 500px;
+transition: 0.5s all;
+filter: opacity(0);
+}
+div.container-dishes div.dishes-bloc div.dishes-img .text-survol-dishes:hover {
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.425);
+  transition: 0.5s all;
+  filter: opacity(1);
+  }
+
+/* h1 {
   font-weight: 300;
   padding: 1%;
 }
@@ -174,7 +226,7 @@ img {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-}
+} */
 /* ========================== zone contact ards + tel, etc.. */
 #contact{
   margin: 0 auto;
