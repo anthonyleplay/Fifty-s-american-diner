@@ -118,7 +118,7 @@ div#pres-resto #pres-resto-text h1{
 /* ========================== zone des plats et menu */
 
 .espace-parralax{
-  background-image: url(../img/parralax.jpg);
+  background-image: url(../img/parralaximg.jpg);
   height: 30rem;
   background-attachment: fixed;
   background-position: center;
