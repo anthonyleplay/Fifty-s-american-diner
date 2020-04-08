@@ -264,7 +264,7 @@ img {vertical-align: middle;}
   margin: 80px auto 0 auto;
 }
 .slideshow-container img {
- width:500px;
+ width: 100%;
  height: auto;
  
 }
